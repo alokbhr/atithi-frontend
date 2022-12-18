@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const user = JSON.parse(localStorage.getItem("currentUser"));
@@ -43,9 +44,9 @@ function Navbar() {
                   </button>
                   <ul className="dropdown-menu">
                     <li>
-                      <a className="dropdown-item" href="/profile">
+                      <Link to='/profile'>
                         Profile
-                      </a>
+                      </Link>
                     </li>
                     <li>
                       <a className="dropdown-item" href="/" onClick={logout}>
