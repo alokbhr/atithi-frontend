@@ -58,7 +58,7 @@ function Navbar() {
             ) : (
               <>
                 <li className="nav-item ">
-                  <a className="nav-link active" href="/Register">
+                  <a className="nav-link active" href="/register">
                     Register
                   </a>
                 </li>
