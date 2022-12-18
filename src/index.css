@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Open+Sans&display=swap');
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Baloo Bhai 2', cursive;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.navbar{
+  background-color: black !important;
+}
+.nav-link{
+  color: white !important;
+}
+.navbar-toggler{
+ color: white !important
+}
+.navbar-brand{
+  color: white !important;
+} 
+.navbar-nav{
+  margin-left: auto !important;
+}
+.smallimg{
+  height: 250px;
+  width: 100% !important;
+  border-radius: 5px !important;
+}
+
+.btn{
+  background-color: black !important;
+  color: white !important;
+  box-shadow: none !important;
+  border: 1px solid black;
+}
+.bs{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 20px !important;
+  border-radius: 5px !important;
+  padding: 20px !important;
+}
+.bigimg{
+  height: 400px !important;
+  border-radius: 5px !important;
+  margin-bottom: 4px !important;
+}
+.loader{
+/* text-align: center !important; */
+justify-content: center !important;
+}
+input,select, .ant-picker{
+
+  box-shadow: none !important;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 2px solid black !important;
+  width: 100% !important;
+  height: 35px !important;
+  
+
+}
+ .ant-picker-input input{
+  border: none !important;
+}
+
+p{
+  font-size: 17px !important;
+}
+
+.landing{
+  background-color: black !important;
+  height: 90.5vh;
+  width: 214.5vh;
+  /* padding-top: 130px; */
+}
+
+.landingbtn{
+  background-color: white !important;
+  color: black !important;
+  margin-top: 20px !important;
+
+}
