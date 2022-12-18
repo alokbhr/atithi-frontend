@@ -59,9 +59,10 @@ function Navbar() {
             ) : (
               <>
                 <li className="nav-item ">
-                  <a className="nav-link active" href="/register">
+                 
+                 <Link to='/register'>
                     Register
-                  </a>
+                 </Link>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link active" href="/login">
